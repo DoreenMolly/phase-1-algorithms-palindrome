@@ -7,9 +7,10 @@ console.log(isPalindrome('racecar'))
 /* 
   Add your pseudocode here
 */
-// change string to an array
+// change string to an array because javascript cannot reverse a string
 //compare the original string with the reversed string
 //change array back to string
+//join the string
 /*
   Add written explanation of your solution here
 */
