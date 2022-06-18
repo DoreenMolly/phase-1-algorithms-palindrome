@@ -1,11 +1,15 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+let copiedWord = [...word]
+let reversed = copiedWord.reverse().join('')
+return reversed === word;
 }
-
+console.log(isPalindrome('racecar'))
 /* 
   Add your pseudocode here
 */
-
+// change string to an array
+//compare the original string with the reversed string
+//change array back to string
 /*
   Add written explanation of your solution here
 */
